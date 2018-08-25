@@ -12,18 +12,19 @@
         <title>Mohamed Fadika développeur web</title>
     </head>
     <body class="">
-        <nav id="navbar" class="navbar sticky-top navbar-nav bg-dark">
+        <nav id="navbar" class="navbar fixed-top navbar-nav bg-dark">
             <ul>
-                <li class="nav-item headerNavbar"><a href="#">Profil</a></li>
+                <li class="nav-item headerNavbar"><a href="#profil">Profil</a></li>
                 <li class="nav-item headerNavbar"><a href="#partf1">Expériences</a></li>
                 <li class="nav-item headerNavbar"><a href="#partf2">Formations</a></li>
                 <li class="nav-item headerNavbar"><a href="#partf3">Compétences</a></li>
                 <li class="nav-item headerNavbar"><a href="#partf4">Centres d'intérets</a></li>
+                <li class="nav-item headerNavbar"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
             <div class="row justify-content-center">
-                <div id="fond" class="fond"></div>
+                <div id="pageBackground" class="pageBackground"></div>
                 <div id="divContent">
                     <div id="profil">
                         <h1>FADIKA Mohamed</h1>
@@ -42,9 +43,13 @@
                     </div>
                     <div id="expContent" class="contentCV content">
                         <p class="parag">
-                            <strong>En 2018</strong><br />Projets web : <br />Création d'un CV numérique avec les outils Bootstrap et JavaScript<br />Projet de
-                            site d'e-commerce avec Jquery puis angularJS<br />Projet de sites de niche sur
-                            WordPress.
+                            <strong>En 2018</strong><br />Projets web :
+                            <ul>
+                              <li>Création d'un CV numérique avec les outils Bootstrap et JavaScript</li>
+                              <li>Site e-commerce de vente de vetements avec Jquery</li>
+                              <li>Site e-commerce de vente de figurines avec angularJS</li>
+                              <li>Sites de niche sur le theme des chats Laperm sur WordPress.</li>
+                            </ul>
                         </p>
                         <p class="parag"><strong>En 2015</strong><br />Cuisinier dans le restaurant "Le Tour du Monde" à Brest (29200) pendant 3 mois.</p>
                         <p class="parag"><strong>Entre 2014 et 2015</strong><br />Commis de cuisine dans le restaurant "Le Surcouf" à Roscoff (29680) pendant 1 an.</p>
@@ -58,10 +63,10 @@
                     </div>
                     <div class="contentCV content">
                         <p class="parag"><strong>En 2018</strong><br />Titre Professionnel "Développeur logiciel" RNCP 5927 niveau III BAC+2 à l'Ecole du
-                            Numérique du Noyonnais (60400), pendant 6 mois (840h).</p>
-                        <p class="parag"><strong>2014 - 2015</strong><br />CQP de Commis de cuisine à l'IFAC de Brest (29200) pendant 1 an.</p>
-                        <p class="parag"><strong>2005 - 2007</strong><br />BEP Techniques d'Architecture et de l'Habitat au Lycée Colard Noël à Saint-Quentin (02100) pendant 2 ans.</p>
-                        <p id="f3" class="parag"><strong>2004 - 2005</strong><br />BEP Métiers de l'Électrotechnique au Lycée Condorcet à Saint-Quentin (02100) pendant 1 an.</p>
+                            Numérique du Noyonnais (840h).</p>
+                        <p class="parag"><strong>2014 - 2015</strong><br />CQP de Commis de cuisine à l'IFAC de Brest, 1 an.</p>
+                        <p class="parag"><strong>2005 - 2007</strong><br />BEP Techniques d'Architecture et de l'Habitat au Lycée Colard Noël à Saint-Quentin, 2 ans.</p>
+                        <p id="f3" class="parag"><strong>2004 - 2005</strong><br />BEP Métiers de l'Électrotechnique au Lycée Condorcet à Saint-Quentin, 1 an.</p>
                     </div>
                     <div id="partf3" class="parts text-white pt-5">
                         <h2 id="skills">Compétences</h2>
@@ -103,14 +108,10 @@
                             <div id="cuisine" class="mb-5 mt-5 pb-5 pt-5">
                                 <h2>Cuisinier</h2>
                                 <div class="row">
-                                    <p class="mt-3 col-md-6 col-xs-6">Mise en place : ★★★☆☆<br />
-                                        Préparation des sauces : ★★★☆☆</p>
-                                    <p class="mt-3 col-md-6 col-xs-6">Habillage du poisson : ★★★☆☆<br />
-                                        Poste froid : ★★★☆☆</p>
-                                    <p class="mt-3 col-md-6 col-xs-6">Poste chaud : ★★★☆☆<br />
-                                        Gestion des stocks : ★★★★★</p>
-                                    <p id="ancre" class="mt-3 col-md-6 col-xs-6">Poste chaud : ★★★☆☆<br />
-                                        Gestion des stocks : ★★★★★</p>
+                                    <p class="mt-3 col-md-6 col-xs-6">Mise en place : ★★★☆☆</p>
+                                    <p class="mt-3 col-md-6 col-xs-6">Préparation des sauces : ★★★☆☆</p>
+                                    <p class="mt-3 col-md-6 col-xs-6">Habillage du poisson : ★★★☆☆</p>
+                                    <p class="mt-3 col-md-6 col-xs-6">Poste froid : ★★★☆☆</p>
                                 </div>
                             </div>
                         </div>                                                    <!--webLangues row-->
@@ -129,7 +130,7 @@
                         </div>
                     </div>
                     <div class="container-fluid foo bg-dark mt-5">
-                        <h2 id="exp" class="text-white">Contact</h2>
+                        <h2 id="contact" class="text-white">Contact</h2>
                         <div class="text-center">
                             <div class="form-group">
                                 <p class="col-md-12"><img class="pic2" src="assets/img/icons8-linkedin-50.png" /> <a href="https://www.linkedin.com/in/mohamed-fadika-7052b2166/">https://www.linkedin.com/in/mohamed-fadika-7052b2166/</a></p>

@@ -4,7 +4,7 @@ $(window).scroll(function(e){
 function parallax(){
 
     var scrolledTop = $(window).scrollTop();
-     $('#fond').css('top', -(scrolledTop * 0.2) + 'px');
+     $('#pageBackground').css('top', -(scrolledTop * 0.2) + 'px');
 	   $('#contentCV').css('top', -(scrolledTop * 0.3) + 'px');
      $('.parts').css('top', -(scrolledTop * 0.5) + 'px');
 }
@@ -12,12 +12,12 @@ function parallax(){
 $(function() {
 $('#presentation').waypoint(function(direction) {
   if (direction == 'down') {
-    $('#fond').removeClass().addClass('fond1');
+    $('#pageBackground').removeClass().addClass('pageBackground1');
   }
 });
 $('#presentation').waypoint(function(direction) {
   if (direction == 'up') {
-    $('#fond').removeClass().addClass('fond');
+    $('#pageBackground').removeClass().addClass('pageBackground');
   }
 });
 
@@ -25,31 +25,29 @@ $('#presentation').waypoint(function(direction) {
 //Second
 $('#f2').waypoint(function(direction) {
   if (direction == 'down') {
-    $('#fond').removeClass().addClass('fond2');
+    $('#pageBackground').removeClass().addClass('pageBackground2');
   }
 });
 $('#f2').waypoint(function(direction) {
   if (direction == 'up') {
-    $('#fond').removeClass().addClass('fond1');
+    $('#pageBackground').removeClass().addClass('pageBackground1');
   }
 });
-
-
 
 //Third
 $('#f3').waypoint(function(direction) {
   if (direction === 'down') {
-    $('#fond').addClass('fond3');
+    $('#pageBackground').addClass('pageBackground3');
   }else if (direction === 'up') {
-    $('#fond').removeClass().addClass('fond2');
+    $('#pageBackground').removeClass().addClass('pageBackground2');
   } else {
   }
 });
 $('#ancre').waypoint(function(direction) {
   if (direction === 'down') {
-    $('#fond').addClass('fond4');
+    $('#pageBackground').addClass('pageBackground4');
   }else if (direction === 'up') {
-    $('#fond').removeClass().addClass('fond3');
+    $('#pageBackground').removeClass().addClass('pageBackground3');
   } else {
   }
 });
