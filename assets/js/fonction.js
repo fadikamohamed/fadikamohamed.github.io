@@ -8,7 +8,7 @@ function parallax(){
 	   $('#contentCV').css('top', -(scrolledTop * 0.3) + 'px');
      $('.parts').css('top', -(scrolledTop * 0.5) + 'px');
 }
-/*
+
 $(function() {
 $('#presentation').waypoint(function(direction) {
   if (direction == 'down') {
@@ -52,4 +52,3 @@ $('#ancre').waypoint(function(direction) {
   }
 });
 });
-*/
