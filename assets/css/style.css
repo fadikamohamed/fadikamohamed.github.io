@@ -23,6 +23,9 @@ body{
     width:200px;
 }
 .profilData{
+    text-shadow: 0 0 2px rgba(0,0,0,.5);
+    font-family: "URW Chancery L";
+    font-weight: bold;
     text-align: center;
     margin-top: 20px;
     font-size: 2em;
