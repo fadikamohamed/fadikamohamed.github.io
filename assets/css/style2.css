@@ -11,6 +11,9 @@ body{
     height: 1000px;
     position: fixed;
 }
+.smallBar{
+    display: none;
+}
 .profilPic{
     width: 200px;
     min-height: 250px;
@@ -25,7 +28,7 @@ body{
 .profilData{
     text-align: center;
     margin-top: 20px;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 100%;
     padding: 0px;
 }

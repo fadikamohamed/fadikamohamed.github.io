@@ -11,6 +11,9 @@ body{
     height: 1000px;
     position: fixed;
 }
+.smallBar{
+    display: none;
+}
 .profilPic{
     width: 200px;
     min-height: 250px;
@@ -25,7 +28,7 @@ body{
 .profilData{
     text-align: center;
     margin-top: 20px;
-    font-size: 2em;
+    font-size: 1em;
     width: 100%;
     padding: 0px;
 }
@@ -55,7 +58,49 @@ body{
 }
 /*------------------------------------------------*/
 /*Contenu*/
-
+/*
+@media screen and (max-width: 1402px)
+{
+    .corp{
+        margin-left: 350px;
+    }
+}
+@media screen and (max-width: 1306px)
+{
+    .corp{
+        margin-left: 330px;
+    }
+}
+@media screen and (max-width: 1286px)
+{
+    .corp{
+        margin-left: 320px;
+    }
+}
+@media screen and (max-width: 1210px)
+{
+    .corp{
+        margin-left: 310px;
+    }
+}
+@media screen and (max-width: 1148px)
+{
+    .corp{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 1084px)
+{
+    .corp{
+        margin-left: 280px;
+    }
+}
+@media screen and (max-width: 1008px)
+{
+    .corp{
+        margin-left: 260px;
+    }
+}*/
 .content{
     margin-top: 30px;
     background-color: white;
