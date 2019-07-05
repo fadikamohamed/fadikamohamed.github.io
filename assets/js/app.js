@@ -20,7 +20,7 @@ new Vue ({
             picture: 'assets/img/mohamedFadikaPhoto.JPG',
             birthDate : '18 décembre 1987',
             pitch: 'Je suis un grand curieux, un petit peu touche a tout, je vois le developpement comme le meilleur moyen d\'expression pour les gens tels que moi.',
-            desir: 'Je recherche actuellement une entreprise dans le cadre d\'une formation en alternance dans la quelle je pourrais parfaire mes compétences dans le developpement web et dans la programation en général.',
+            desir: 'Je recherche actuellement une entreprise dans le cadre d\'une formation en alternance dans laquelle je pourrais parfaire mes compétences dans le developpement web et dans la programation en général.',
             /*projects: 'Dans le futur je compte reprendre des études dans la physique ou l\'ingénierie on dis que l\'avenir sourie aux audacieux.'*/
         },
 
@@ -31,7 +31,7 @@ new Vue ({
             techs: {
                 linux: {
                     name: 'Linux : ',
-                    comment: 'Linux et son terminal pour tout les exercices et projets éffectué en formation.'
+                    comment: 'Linux et son terminal pour tout les exercices et projets effectué en formation.'
                 },
                 html: {
                     name: 'Le HTML : ',
@@ -39,7 +39,7 @@ new Vue ({
                 },
                 css: {
                     name: 'Le CSS : ',
-                    comment: 'Comme le html j\'y suis deja familier de puis plusieurs années.'
+                    comment: 'Comme le html j\'y suis deja familier depuis plusieurs années.'
                 },
                 javaScript: {
                     name: 'Le JavaScript : ',
@@ -74,20 +74,20 @@ new Vue ({
                 eCommerce: {
                     angularJS: {
                         name : '2e projet : ',
-                        comment: 'Site e-commerce avec AngularJS, éffectué en groupe de 4 personnes.'
+                        comment: 'Site e-commerce avec AngularJS, effectué en groupe de 4 personnes.'
                     },
                     jQuery: {
                         name: '3e projet : ',
-                        comment: 'Site e-commerce avec jQuery cette fois ci, également éffectué en groupe de 4 personnes.'
+                        comment: 'Site e-commerce avec jQuery cette fois ci, également effectué en groupe de 4 personnes.'
                     },
                 },
                 niche: {
                     name : '4e projet : ',
-                    comment : 'Réalisation d\'un site de niche avec le CMS WordPress lors d\'une initiation au CMS. Projet éffecué seul.'
+                    comment : 'Réalisation d\'un site de niche avec le CMS WordPress lors d\'une initiation au CMS. Projet effectué seul.'
                 },
                 vitrine: {
                     name: '5e projet : ',
-                    comment: 'Site vitrine d\'une entreprise de maçonnerie en php, éffectué en groupe de 4 ce projet avait pour but de nous permetre d\'appréander PDO et le htaccess.'
+                    comment: 'Site vitrine d\'une entreprise de maçonnerie en php, effectué en groupe de 4 ce projet avait pour but de nous permetre d\'appréander PDO et le htaccess.'
                 },
                 perso: {
                     name: '6e projet : ',
@@ -187,7 +187,7 @@ new Vue ({
                     number: '4/5',
                     barre: 'width: 80%'
                 },
-                coment: 'fgbfgbfbfgb'
+                coment: ''
             },
             {
                 name: 'Anglais',
@@ -195,7 +195,7 @@ new Vue ({
                     number: '3/5',
                     barre: 'width: 60%'
                 },
-                coment: 'fgbfgbfbfgb'
+                coment: ''
             }
         ]
     },
