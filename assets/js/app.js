@@ -90,9 +90,15 @@ new Vue ({
                     comment: 'Site vitrine d\'une entreprise de maçonnerie en php, effectué en groupe de 4 ce projet avait pour but de nous permetre d\'appréander PDO et le htaccess.'
                 },
                 perso: {
-                    name: '6e projet : ',
+                    name: '6e projet : (En cours)',
                     comment: 'Projet de fin de formation pour la validation du diplome. Il me tiens particulierement et j\'y ai mis une grande partie de mes connaissances.',
-                    link: 'https://github.com/fadikamohamed/monProjetPerso'
+                    linkGithub: 'https://github.com/fadikamohamed/monProjetPerso',
+                    linkSite: 'http://www.octaviuscaelestis.hebergratuit.net/monProjetPerso/version1/Accueil.html'
+                },
+                perso2: {
+                    name: '7e projet : (En cours)',
+                    comment: 'Projet de fin de formation pour la validation du diplome. Il me tiens particulierement et j\'y ai mis une grande partie de mes connaissances.',
+                    link: 'http://www.octaviuscaelestis.hebergratuit.net/olyly/index.php'
                 }
             }
         },
