@@ -97,7 +97,7 @@ new Vue ({
                 },
                 perso2: {
                     name: '7e projet : (En cours)',
-                    comment: 'Projet de fin de formation pour la validation du diplome. Il me tiens particulierement et j\'y ai mis une grande partie de mes connaissances.',
+                    comment: 'Encore un projet personnel, il s\'agit d\'un site qui donne la possibilité de poster des articles et des photos.',
                     linkSite: 'http://www.octaviuscaelestis.hebergratuit.net/olyly/index.php'
                 }
             }
