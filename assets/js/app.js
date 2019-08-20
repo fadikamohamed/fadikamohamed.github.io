@@ -17,7 +17,7 @@ new Vue ({
         presentation: {
             lastname: 'FADIKA',
             firstname: 'Mohamed',
-            picture: 'assets/img/10502206_511389202332444_8077140484178282120_n.JPG',
+            picture: 'assets/img/10502206_511389202332444_8077140484178282120_n.jpg',
             birthDate : '18 décembre 1987',
             pitch: 'Je suis un grand curieux, un petit peu touche a tout, je vois le developpement comme le meilleur moyen d\'expression pour les gens tels que moi.',
             desir: 'Je recherche actuellement une entreprise dans le cadre d\'une formation en alternance dans laquelle je pourrais parfaire mes compétences dans le developpement web et dans la programation en général.',
