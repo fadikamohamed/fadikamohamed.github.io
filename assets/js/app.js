@@ -21,7 +21,7 @@ new Vue ({
             birthDate : '18 décembre 1987',
             pitch: 'Je suis un grand curieux, un petit peu touche a tout, je vois le developpement comme le meilleur moyen d\'expression pour les gens tels que moi.',
             desir: 'Je recherche actuellement une entreprise dans le cadre d\'une formation en alternance dans laquelle je pourrais parfaire mes compétences dans le developpement web et dans la programation en général.',
-            /*projects: 'Dans le futur je compte reprendre des études dans la physique ou l\'ingénierie on dis que l\'avenir sourie aux audacieux.'*/
+            projects: 'Dans le futur je compte reprendre des études dans la physique ou l\'ingénierie on dis que l\'avenir sourie aux audacieux.'
         },
 
         //Formation
