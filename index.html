@@ -194,10 +194,12 @@
                 <!--Portfolio-------------------------------------------------------------------------------------------->
                 <div class="portfolio" v-else-if="page === 'portfolio'">
                     <div class="profilPic">
-                        <img class="picture" :src="portfolio.projet1.picture" alt="Projet n°1" title="Image du projet">
+                        <h3>{{ portfolio.projet1.name }</h3>
+                        <div><img class="picture" :src="portfolio.projet1.picture" alt="Projet n°1" title="Image du projet"></div>
                     </div>
                     <div class="profilPic">
-                        <img class="picture" :src="portfolio.projet2.picture" alt="Projet n°2" title="Image du projet">
+                        <h3>{{ portfolio.projet2.name }}</h3>
+                        <div></div><img class="picture" :src="portfolio.projet2.picture" alt="Projet n°2" title="Image du projet"></div>
                     </div>
 
                 </div>

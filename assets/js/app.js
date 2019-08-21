@@ -251,7 +251,7 @@ new Vue ({
             this.page = 'portfolio'
             pixscroll = document.documentElement.scrollTop
             window.top.window.scrollTo(0,0)
-        }
+        },
         /*-------------------------------------------------------------------------------*/
 
     }
