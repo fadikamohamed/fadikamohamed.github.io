@@ -215,22 +215,26 @@ new Vue ({
         {
             this.page = 'home'
             pixscroll = document.documentElement.scrollTop
+            window.top.window.scrollTo(0,0)
 
         },
         showFormation: function ()
         {
             this.page = 'formation'
             pixscroll = document.documentElement.scrollTop
+            window.top.window.scrollTo(0,0)
         },
         showSkills: function ()
         {
             this.page = 'skills'
             pixscroll = document.documentElement.scrollTop
+            window.top.window.scrollTo(0,0)
         },
         showPointOfInterest: function ()
         {
             this.page = 'pointOfInterest'
             pixscroll = document.documentElement.scrollTop
+            window.top.window.scrollTo(0,0)
         },
         /*-------------------------------------------------------------------------------*/
 
