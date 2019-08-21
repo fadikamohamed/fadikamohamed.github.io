@@ -99,7 +99,7 @@ new Vue ({
                     name: '7e projet : (En cours)',
                     comment: 'Encore un projet personnel, il s\'agit d\'un site qui donne la possibilité de poster des articles et des photos.',
                     linkGithub: 'https://github.com/fadikamohamed/blog',
-                    linkSite: 'http://www.octaviuscaelestis.hebergratuit.net/olyly/index.php'
+                    linkSite: 'http://www.octaviuscaelestis.hebergratuit.net/blog/index.php'
                 }
             }
         },
@@ -204,7 +204,17 @@ new Vue ({
                 },
                 coment: ''
             }
-        ]
+        ],
+        portfolio: {
+            projet1: {
+                name: 'Communi\'Scan',
+                picture: 'assets/img/communi\'Scan.png'
+            },
+            projet2: {
+                name: 'Blog articles et photos',
+                picture: 'assets/img/blog.png'
+            }
+        }
     },
 
 
@@ -236,6 +246,12 @@ new Vue ({
             pixscroll = document.documentElement.scrollTop
             window.top.window.scrollTo(0,0)
         },
+        showPortfolio: function ()
+        {
+            this.page = 'portfolio'
+            pixscroll = document.documentElement.scrollTop
+            window.top.window.scrollTo(0,0)
+        }
         /*-------------------------------------------------------------------------------*/
 
     }

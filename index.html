@@ -71,6 +71,7 @@
                     <li @click="showHome"><button class="btn btn-secondary btn-lg btn-block button" title="Lien vers la page de présentation">Présentation</button></li>
                     <li @click="showFormation"><button class="btn btn-secondary btn-lg btn-block button" title="Lien vers la page formation">Formation</button></li>
                     <li @click="showSkills"><button class="btn btn-secondary btn-lg btn-block button" title="Lien vers la page des compéteces">Compétences</button></li>
+                    <li @click="portfolio"><button class="btn btn-secondary btn-lg btn-block button" title="Lien vers le portfolio">Portfolio</button></li>
                     <!--<li @click="showPointOfInterest"><button class="btn btn-secondary btn-lg btn-block button" title="Lien vers les centres d'intérets">Centres d'intéret</button></li>-->
                 </ul>
             </div>
@@ -188,6 +189,16 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <!--Portfolio-------------------------------------------------------------------------------------------->
+                <div class="portfolio" v-else-if="page === 'portfolio'">
+                    <div class="profilPic">
+                        <img class="picture" :src="portfolio.projet1.picture" alt="Projet n°1" title="Image du projet">
+                    </div>
+                    <div class="profilPic">
+                        <img class="picture" :src="portfolio.projet2.picture" alt="Projet n°2" title="Image du projet">
+                    </div>
+
                 </div>
                 <!--Centres d'intéret--------------------------------------------------------------------->
                 <div class="pointOfInterest" v-else-if="page === 'pointOfInterest'">
