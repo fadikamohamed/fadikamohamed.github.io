@@ -22,6 +22,12 @@ body{
 .picture{
     width:200px;
 }
+.portfolioPicture{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+
+}
 .profilData{
     text-shadow: 0 0 2px rgba(0,0,0,.5);
     font-family: "URW Chancery L";
