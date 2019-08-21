@@ -23,7 +23,8 @@ body{
     width:200px;
 }
 .portfolioPicture{
-    width: 500px;
+    margin: auto;
+    width: 200px;
     text-align: center;
 
 }
