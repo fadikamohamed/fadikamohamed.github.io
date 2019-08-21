@@ -98,6 +98,7 @@ new Vue ({
                 perso2: {
                     name: '7e projet : (En cours)',
                     comment: 'Encore un projet personnel, il s\'agit d\'un site qui donne la possibilité de poster des articles et des photos.',
+                    linkGithub: 'https://github.com/fadikamohamed/blog',
                     linkSite: 'http://www.octaviuscaelestis.hebergratuit.net/olyly/index.php'
                 }
             }
